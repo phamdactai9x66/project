@@ -1,0 +1,141 @@
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  *, *::after, ::before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  :root {
+    --background_box:rgb(35, 75, 150);
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: url("./img/07ae061ca308afda1fabe0a220e13357.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  img {
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .main_content {
+    -ms-flex-preferred-size: 1000px;
+        flex-basis: 1000px;
+    margin: auto;
+  }
+  
+.main_content .info_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_content .info_user .box {
+  margin: 10px 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.333%;
+          flex: 1 1 33.333%;
+}
+
+.main_content .info_user .box .box11 {
+  border: 1px solid black;
+  padding: 5px 7px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  background: #4149bb;
+}
+
+.main_content .info_user .box .right {
+  cursor: pointer;
+  margin-left: auto;
+}
+  .main_content .main_box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr);
+        grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    perspective: 1500px;
+  }
+  /* .alert_notification{
+    display: none;
+  } */
+  .alert_notification{
+    display: none;
+  }
+  .main_content .main_box .box1 {
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    -webkit-filter: drop-shadow(0px 2px 1.5px gray);
+            filter: drop-shadow(0px 2px 1.5px gray);
+    -webkit-transition: all 0.2s ease-out;
+    
+    transition: all 0.2s ease-out;
+  }
+  .main_content .main_box .box1.test12{
+    -webkit-filter: drop-shadow(0px 2px 5.5px var(--background_box));
+    filter: drop-shadow(0px 2px 5.5px var(--background_box));
+-webkit-transform: rotateX(20deg) rotateY(23deg);
+    transform: rotateX(20deg) rotateY(23deg);
+  }
+  
+  .main_content .main_box .box1:hover {
+    -webkit-filter: drop-shadow(0px 2px 5.5px var(--background_box));
+            filter: drop-shadow(0px 2px 5.5px var(--background_box));
+    -webkit-transform: rotateX(20deg) rotateY(23deg);
+            transform: rotateX(20deg) rotateY(23deg);
+            transform-style: preserve-3d;
+  }
+  
+  .main_content .main_box .box1 .childs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--background_box);
+    color: white;
+    padding: 0.2rem 0.4rem;
+    border-bottom-right-radius: 8px;
+  }
+  .restart_game{
+    margin-top: 0.5rem;
+    text-align: center;
+    padding: 10px;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  /*# sourceMappingURL=new_sill.css.map */

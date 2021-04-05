@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "start_server":"json-server -w ./json_db/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.18",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

@@ -1,0 +1,290 @@
+{
+    "categories": [
+      {
+        "name": "vinsmart",
+        "id": 1
+      },
+      {
+        "name": "iphone",
+        "id": 2
+      },
+      {
+        "name": "samsung",
+        "id": 3
+      },
+      {
+        "name": "bphone",
+        "id": 4
+      }
+    ],
+    "products": [
+      {
+        "name": "pham dac tai 9x6",
+        "price": "20000",
+        "image": "https://firebasestorage.googleapis.com/v0/b/test12-873e4.appspot.com/o/new_image%2Fel-salvador-coffee-300x300.png?alt=media&token=28981197-2f48-42fb-953c-0a14659a08ec",
+        "cate_id": "1",
+        "quantity_product": 3,
+        "detail": "Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.",
+        "id": 1
+      },
+      {
+        "name": "san pahsm123",
+        "price": "12124124",
+        "image": "https://firebasestorage.googleapis.com/v0/b/test12-873e4.appspot.com/o/new_image%2FCoffee-Image_Hario-Tea-Press_dbcc3335-ba56-4c5b-8ef0-84508a701881_540x.png?alt=media&token=829817e2-4af9-4759-b190-29556b2a6ab4",
+        "cate_id": "2",
+        "quantity_product": "5",
+        "detail": "Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.",
+        "id": 2
+      },
+      {
+        "name": "asdiyuiy",
+        "price": "2000",
+        "image": "https://firebasestorage.googleapis.com/v0/b/test12-873e4.appspot.com/o/new_image%2Fdrip-kettle-300x300.png?alt=media&token=17da3c52-70e7-41ce-a6df-379c727103a9",
+        "cate_id": "3",
+        "quantity_product": "4",
+        "detail": "Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.",
+        "id": 3
+      },
+      {
+        "name": "cvbcvbc",
+        "price": "5000",
+        "image": "https://firebasestorage.googleapis.com/v0/b/test12-873e4.appspot.com/o/new_image%2Fequator-coffee-300x300.png?alt=media&token=707d8a3f-c19b-4a19-b274-5f5b483885b4",
+        "cate_id": "3",
+        "quantity_product": "4",
+        "detail": "Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.",
+        "id": 4
+      },
+      {
+        "name": "y8uoyuoy",
+        "price": "7000",
+        "image": "https://firebasestorage.googleapis.com/v0/b/test12-873e4.appspot.com/o/new_image%2Fgreen-cap-300x300.png?alt=media&token=a73a0b59-2f81-428d-92d6-b8c28fa530ef",
+        "cate_id": "3",
+        "quantity_product": "4",
+        "detail": "Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.",
+        "id": 5
+      },
+      {
+        "name": "asdawdaw13",
+        "price": "7000",
+        "image": "https://firebasestorage.googleapis.com/v0/b/test12-873e4.appspot.com/o/new_image%2Fdarkhorse-coffee-300x300.png?alt=media&token=88709295-d28d-4b3b-bac0-f52cfe2a107d",
+        "cate_id": "4",
+        "quantity_product": 8,
+        "detail": "Cras chinwag brown bread Eaton cracking goal so I said a load of old tosh baking cakes, geeza arse it’s your round grub sloshed burke, my good sir chancer he legged it he lost his bottle pear shaped bugger all mate.",
+        "id": 6
+      }
+    ],
+    "orders": [
+      {
+        "customer_name": "pham dac tai",
+        "customer_address": "ha noi",
+        "customer_email": "taipdph10082@fpt.edu.vn",
+        "customer_number": "54876449797",
+        "status": "1",
+        "created_date": "2021/04/03",
+        "price_all": null,
+        "id": 1
+      },
+      {
+        "customer_name": "pham dac tia",
+        "customer_address": "ha noi",
+        "customer_email": "asdas",
+        "customer_number": "1231231",
+        "status": "1",
+        "created_date": "2021/05/03",
+        "price_all": null,
+        "id": 2
+      },
+      {
+        "customer_name": "pham dac tai",
+        "customer_address": "ha noi",
+        "customer_email": "asd",
+        "customer_number": "1231231",
+        "status": "1",
+        "created_date": "2021/05/03",
+        "price_all": null,
+        "id": 3
+      },
+      {
+        "customer_name": "312",
+        "customer_address": "3123",
+        "customer_email": "123123",
+        "customer_number": "12",
+        "status": "1",
+        "created_date": "2021/05/03",
+        "price_all": null,
+        "id": 4
+      },
+      {
+        "customer_name": "pham dac tai",
+        "customer_address": "ha noi",
+        "customer_email": "taipdph10082@fpt.com.vn",
+        "customer_number": "5161651651",
+        "status": "1",
+        "created_date": "2021/05/03",
+        "price_all": null,
+        "id": 5
+      },
+      {
+        "customer_name": "pham dac tai",
+        "customer_address": "ha noi",
+        "customer_email": "taipdph10082@fpt.com.vn",
+        "customer_number": "5161651651",
+        "status": "1",
+        "created_date": "2021/05/03",
+        "price_all": null,
+        "id": 6
+      }
+    ],
+    "order_details": [
+      {
+        "order_id": 1,
+        "product": 1,
+        "quantily": "5",
+        "unit_price": 100000,
+        "id": 1
+      },
+      {
+        "order_id": 1,
+        "product": 2,
+        "quantily": "1",
+        "unit_price": 12124124,
+        "id": 2
+      },
+      {
+        "order_id": 1,
+        "product": 3,
+        "quantily": "1",
+        "unit_price": 2000,
+        "id": 3
+      },
+      {
+        "order_id": 2,
+        "product": 2,
+        "quantily": "2",
+        "unit_price": 24248248,
+        "id": 4
+      },
+      {
+        "order_id": 2,
+        "product": 3,
+        "quantily": "1",
+        "unit_price": 2000,
+        "id": 5
+      },
+      {
+        "order_id": 3,
+        "product": 1,
+        "quantily": "5",
+        "unit_price": 100000,
+        "id": 6
+      },
+      {
+        "order_id": 4,
+        "product": 1,
+        "quantily": "2",
+        "unit_price": 40000,
+        "id": 7
+      },
+      {
+        "order_id": 5,
+        "product": 2,
+        "quantily": "1",
+        "unit_price": 12124124,
+        "id": 8
+      },
+      {
+        "order_id": 5,
+        "product": 6,
+        "quantily": "1",
+        "unit_price": 7000,
+        "id": 9
+      },
+      {
+        "order_id": 6,
+        "product": 2,
+        "quantily": "1",
+        "unit_price": 12124124,
+        "id": 10
+      },
+      {
+        "order_id": 6,
+        "product": 6,
+        "quantily": "1",
+        "unit_price": 7000,
+        "id": 11
+      }
+    ],
+    "property": [
+      {
+        "id": 0,
+        "name": "red"
+      },
+      {
+        "id": 1,
+        "name": "blue"
+      },
+      {
+        "id": 2,
+        "name": "yellow"
+      }
+    ],
+    "property_products": [
+      {
+        "id": 0,
+        "quantity": 6,
+        "id_product": 1,
+        "id_porperty": 1
+      },
+      {
+        "id": 2,
+        "quantity": 2,
+        "id_product": 1,
+        "id_porperty": 2
+      }
+    ],
+    "contact": [
+      {
+        "id": 0,
+        "title": "tieu de ban viet",
+        "email": "taipdph10082@fpt.edu.vn",
+        "message": "website dep day ong ban",
+        "date_release": "2020-10-15"
+      },
+      {
+        "id": 1,
+        "title": "tieu de ban viet1",
+        "email": "taipdph10082@fpt.edu.vn",
+        "message": "website dep day ong ban",
+        "date_release": "2020-10-15"
+      },
+      {
+        "title": "san pham 12 nhe",
+        "email": "taipham151220033@gmail.com",
+        "message": "asdas \n \nas\nd as\nd \nasd",
+        "date_release": "2021-03-03",
+        "id": 2
+      },
+      {
+        "title": "san pham 12 nhe",
+        "email": "taipham151220033@gmail.com",
+        "message": "asdas \n \nas\nd as\nd \nasd",
+        "date_release": "2021-03-03",
+        "id": 3
+      },
+      {
+        "title": "san pham 12",
+        "email": "taipham151220033@gmail.com",
+        "message": "san pham nay tot day ong ban hihi",
+        "date_release": "2021-03-03",
+        "id": 5
+      },
+      {
+        "title": "asdas",
+        "email": "taipham151220033@gmail.com",
+        "message": "asdasda\nsd\na\nsd\na\nsd\na\nsd\na\nsd\nas",
+        "date_release": "2021-04-03",
+        "id": 6
+      }
+    ]
+  }
+  
